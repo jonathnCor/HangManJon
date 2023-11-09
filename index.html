@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Jonathan Movie</title>
+    <link rel="stylesheet" href="styles.css">
+          <script src="index.js" defer></script>
+  </head>
+  <body>
+    
+    <main>
+      <h1>Jon Hangman</h1>
+      <div id="gallows">
+        <img style="padding-left: 70px" id="hangmanImage" src="Screenshot_317.png"/></img> 
+        
+      </div>
+      <div id="word"></div>
+      <br>
+      <div id="controls">
+        <input type="text" id="guessBox">
+        <button id="guessWordButton" class="button" onclick="guessWord( game )">Guess Word</button>
+        <button id="newGameButton" class="button" onclick="newGame();">New Game</button>
+        <br>
+        <br>
+        
+      </div>
+      <br>
+      <div id="guesses"></div>
+    </main>   
+   
+  </body>
+</html>
